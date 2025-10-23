@@ -1,0 +1,55 @@
+body {
+  background-color: #8ee000; /* bright lime green */
+  font-family: Helvetica, Arial, sans-serif;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.menu-title {
+  font-size: 48px;
+  font-weight: 500;
+  text-align: center;
+  margin: 0;
+}
+
+.subtitle {
+  font-size: 22px;
+  text-align: center;
+  margin-top: 4px;
+  margin-bottom: 40px;
+}
+
+.section-title {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.item {
+  margin-bottom: 25px;
+}
+
+.item-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.description {
+  font-size: 16px;
+  margin: 0;
+}
+
+.price {
+  font-size: 16px;
+  margin-top: 2px;
+  font-weight: 500;
+}

@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    background-color: #5b6fa8;
+    color:#ffffff;
+    font-family: 'Bequta', regular;
+   
+
+  background-image: url("homelol.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.text-block {
+    flex: 1;
+    max-width: 650px;
+}
+
+h1{
+    font-size: 100px;
+    margin-left: 40px;
+    margin-top: 300px;
+    color: #ffffff;
+    line-height: 1;
+    text-align: left;
+}
+
+
+h2{
+    font-size:80px;
+    margin-left: 550px;
+    color: #ffffff;
+    line-height: 0;
+    text-align: left;
+    margin-top: 280px;
+    
+}
+
+
+.links{
+    display: flex;
+    gap: 60px;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 30px; 
+}
+.link-box{
+   background-color: #384c7c; 
+   margin-left:40px;
+   color:#ffffff;
+   text-decoration: none;
+   padding:50px 150px;
+   border-radius: 55px;
+   font-size: 50px;
+   box-shadow: 10px 10px 0 rgba(255,255,255,0.3);
+   transition: transform 0.2 ease, baclground-color 0.2 ease;
+   
+   
+}
+.link-box:hover{
+    transform: scale(1.05);
+    background-color: #4d63a2
+  
+}
