@@ -1,0 +1,73 @@
+:root {
+  --bg: #070707;
+  --text: #e8e8e8;
+  --red: #9a0000;
+  --glow: rgba(255, 0, 0, 0.4);
+  font-size: 16px;
+}
+
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  background: var(--bg);
+  font-family: "Roboto", sans-serif;
+  color: var(--text);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.frame {
+  width: min(70rem, 90%);
+  text-align: center;
+}
+
+h1 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 3.2rem;
+  letter-spacing: 0.08rem;
+  margin-bottom: 2rem;
+}
+
+.quote-box {
+  border: 2px solid var(--red);
+  padding: 2rem;
+  border-radius: 1rem;
+  background: rgba(255,255,255,0.03);
+  transition: box-shadow .3s ease;
+}
+
+.line {
+  font-size: 1.4rem;
+  margin: 1rem 0;
+  opacity: 0;
+  transition: opacity .4s ease;
+}
+
+
+
+.controls {
+  margin-top: 1.8rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.buttons {
+  background: transparent;
+  border: 2px solid var(--red);
+  color: var(--red);
+  padding: 0.7rem 1.2rem;
+  font-size: 1rem;
+  border-radius: 0.6rem;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.buttons:hover {
+  background: var(--red);
+  color: #750000;
+}
